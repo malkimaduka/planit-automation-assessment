@@ -10,7 +10,7 @@ export class HomePage {
     }
 
     async navigateToHomePage() {
-        await this.page.goto('https://jupiter.cloud.planittesting.com/#/');
+        await this.page.goto('https://jupiter.cloud.planittesting.com');
     }
 
     async navigateToContactPage() {
